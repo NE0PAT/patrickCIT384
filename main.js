@@ -29,8 +29,8 @@ const sr = ScrollReveal({
     // reset : true
 })
 
-sr.reveal('.home-text',{origin: 'top'})
-sr.reveal('.home-img',{origin: 'bottom'})
+sr.reveal('.home-text',{origin: 'bottom'})
+sr.reveal('.home-img',{origin: 'top'})
 sr.reveal('.heading',{delay: 200})
 sr.reveal('.style-details .box',{origin: 'left', interval:200})
 sr.reveal('.style-img',{delay: 600})
