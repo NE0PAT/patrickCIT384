@@ -78,7 +78,7 @@ header.shadow{
     background-clip: text;
 }
 .navbar a:hover{
-    color: var(--text-color)
+    color: var(--text-color);
 }
 /*home*/
 .home-content{
