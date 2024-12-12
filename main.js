@@ -2,7 +2,7 @@
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
-    header.classList.toggle('shadow', window.scrollY <0 )
+    header.classList.toggle('shadow', window.scrollY > 0 )
 });
 
 // menu
@@ -10,22 +10,22 @@ let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
-    menu.classicList.toggle('bx-x');
-    navbar.classicList.toggle('active');
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 }
 
 //removes menu on click
-window.onscroll = () = {
-    menu.classicList.remove('bx-x');
-    navbar.classicList.remove('active');
+window.onscroll = () => {
+    menu.classList.remove('bx-x');
+    navbar.classList.remove('active');
 }
 
 // scroll reveal animation
 const sr = ScrollReveal({
-    origin = 'top',
-    distance = '60px',
-    duration = 2500,
-    delay = 400,
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
     // reset : true
 })
 
