@@ -18,7 +18,7 @@
     --hover-color: hsl(0, 0%, 14%);
     --bg-color: #fff;
 }
-html: webkit-scrollbar{
+html::-webkit-scrollbar{
     width: 0.5rem;
 }
 img{
@@ -40,7 +40,7 @@ section{
 }
 header{
     display: block;
-    width: 100%;f
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -224,7 +224,7 @@ background-color: var(--hover-color);
     }
 }
 @media (max-width: 1080px) {
-    selection {
+    section {
         padding: 50px 0;
     }
     .home-text h1{
@@ -274,7 +274,7 @@ background-color: var(--hover-color);
 }
 @media (max-width: 684px) {
     .home-content,
-    .style-container, {
+    .style-container {
         grid-template-columns: 1fr;
     }
     .home-content {
