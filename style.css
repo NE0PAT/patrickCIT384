@@ -210,7 +210,7 @@ background-color: var(--hover-color);
     font-size: 1rem;
 }
 .social .bx:hover {
-    background: var(--hover-color)
+    background: var(--hover-color);
 }
 .copyright {
     text-align: center;
